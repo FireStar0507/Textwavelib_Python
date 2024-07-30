@@ -4,7 +4,7 @@ Creates a text-based wave animation in the console.
 Written by FireStar0507
 
 
-    Args:
+Args:
         content (list): A list defining the content character and its behavior:
                          - content[0]: The character used for the wave (default "*").
                          - content[1]: Initial direction (1 for increasing, 0 for decreasing).
@@ -14,7 +14,7 @@ Written by FireStar0507
         filler (list):  A list defining the filler character and its behavior (same structure as 'content').
         interval (float): The time interval between each animation frame (in seconds).
 
-    参数：
+参数：
         content（列表）：定义内容字符及其行为的列表：
                          - content[0]：用于波浪的字符（默认为“*”）。
                          - content[1]：初始方向（1 表示增加，0 表示减少）。
