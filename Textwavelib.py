@@ -7,7 +7,16 @@ Written by FireStar0507
 import time, sys  # 导入 time 库控制时间，sys 库用于退出程序
 
 def textwave(content= ["*", 1, 1, 10, 1], filler= [" ", 1, 1, 10, 1], interval=0.1):
-    """
+"""
+    参数：
+        content（列表）：定义内容字符及其行为的列表：
+                         - content[0]：用于波浪的字符（默认为“*”）。
+                         - content[1]：初始方向（1 表示增加，0 表示减少）。
+                         - content[2]：内容字符的初始计数。
+                         - content[3]：内容字符的最大计数。
+                         - content[4]：内容字符的最小计数。
+        filler（列表）：定义空白填充物字符及其行为的列表（与“content”的结构相同）。
+        interval （数值）：每个动画帧之间的时间间隔（以秒为单位）。
     Args:
         content (list): A list defining the content character and its behavior:
                          - content[0]: The character used for the wave (default "*").
@@ -18,16 +27,8 @@ def textwave(content= ["*", 1, 1, 10, 1], filler= [" ", 1, 1, 10, 1], interval=0
         filler (list):  A list defining the filler character and its behavior (same structure as 'content').
         interval (float): The time interval between each animation frame (in seconds).
 
-    参数：
-        content（列表）：定义内容字符及其行为的列表：
-                         - content[0]：用于波浪的字符（默认为“*”）。
-                         - content[1]：初始方向（1 表示增加，0 表示减少）。
-                         - content[2]：内容字符的初始计数。
-                         - content[3]：内容字符的最大计数。
-                         - content[4]：内容字符的最小计数。
-        filler（列表）：定义填充物字符及其行为的列表（与“content”的结构相同）。
-        interval （数值）：每个动画帧之间的时间间隔（以秒为单位）。
-    """
+
+"""
     try:
         print("Start!!!")
         while True:
